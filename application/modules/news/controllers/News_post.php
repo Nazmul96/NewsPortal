@@ -157,7 +157,6 @@ class News_post extends  MX_Controller {
             'status1'           =>  $post_ap_status
         );
 
-
         $result = $this->common_model->pbnews_post($data);
 
         if (isset($post_meta)) {

@@ -1,11 +1,12 @@
-<div class="frame">
-          <p class="text-wrapper">Fastest century in Ranji Trophy: Rishabh Pant, Riyan Parag headline list</p>
+        <div class="frame">
+
+          <p class="text-wrapper"><?php echo $latest_random_news[0]->title;?></p>
           <div class="frame-2">
             <div class="text-wrapper-2">News</div>
             <img class="share" src="<?php echo base_url()?>assets/newDesign/img/share-1.png" />
           </div>
           <div class="image-wrapper">
-            <img class="image" src="<?php echo base_url()?>assets/newDesign/img/image-2.png" />
+            <img class="image" src="<?php echo base_url()?>uploads/<?php echo $latest_random_news[0]->image;?>" />
           </div>
         </div>
         <div class="frame-3">
@@ -342,32 +343,6 @@
               <div class="frame-33"><div class="text-wrapper-18">Opinions</div></div>
             </div>
           </div>
-          <div class="frame-34">
-            <img class="line" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-            <div class="frame-35">
-              <img class="img-2" src="<?php echo base_url()?>assets/newDesign/img/news.png" />
-              <p class="text-wrapper-19">Fastest century in Ranji Trophy: Rishabh Pant, Riyan Rarag headline list</p>
-            </div>
-            <img class="line" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-            <div class="frame-36">
-              <img class="img-2" src="<?php echo base_url()?>assets/newDesign/img/news.png" />
-              <p class="text-wrapper-12">Fastest century in Ranji Trophy: Rishabh Pant, Riyan Rarag headline list</p>
-            </div>
-            <img class="line-2" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-          </div>
-          <div class="frame-37">
-            <img class="line" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-            <div class="frame-35">
-              <img class="img-2" src="<?php echo base_url()?>assets/newDesign/img/news.png" />
-              <p class="text-wrapper-19">Fastest century in Ranji Trophy: Rishabh Pant, Riyan Rarag headline list</p>
-            </div>
-            <img class="line" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-            <div class="frame-36">
-              <img class="img-2" src="<?php echo base_url()?>assets/newDesign/img/news.png" />
-              <p class="text-wrapper-12">Fastest century in Ranji Trophy: Rishabh Pant, Riyan Rarag headline list</p>
-            </div>
-            <img class="line-2" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-          </div>
           <div class="frame-38">
             <div class="frame-21">
               <div class="frame-22"><img class="image-2" src="<?php echo base_url()?>assets/newDesign/img/image-3.png" /></div>
@@ -443,44 +418,7 @@
               <div class="frame-33"><div class="text-wrapper-18">Opinions</div></div>
             </div>
           </div>
-          <div class="frame-44">
-            <img class="line" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-            <div class="frame-35">
-              <img class="img-2" src="<?php echo base_url()?>assets/newDesign/img/news.png" />
-              <p class="text-wrapper-12">
-                AFC Asian CUP 2023,Live steaming : watch indian football team in action<br />
-                - full schedule
-              </p>
-            </div>
-            <img class="line" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-            <div class="frame-36">
-              <img class="img-2" src="<?php echo base_url()?>assets/newDesign/img/news.png" />
-              <p class="text-wrapper-12">
-                AFC Asian CUP 2023,Live steaming : watch indian football team in action<br />
-                - full schedule
-              </p>
-            </div>
-            <img class="line-2" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-          </div>
-          <div class="frame-45">
-            <img class="line" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-            <div class="frame-35">
-              <img class="img-2" src="<?php echo base_url()?>assets/newDesign/img/news.png" />
-              <p class="text-wrapper-12">
-                AFC Asian CUP 2023,Live steaming : watch indian football team in action<br />
-                - full schedule
-              </p>
-            </div>
-            <img class="line" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-            <div class="frame-36">
-              <img class="img-2" src="<?php echo base_url()?>assets/newDesign/img/news.png" />
-              <p class="text-wrapper-12">
-                AFC Asian CUP 2023,Live steaming : watch indian football team in action<br />
-                - full schedule
-              </p>
-            </div>
-            <img class="line-2" src="<?php echo base_url()?>assets/newDesign/img/line-4.svg" />
-          </div>
+
           <div class="frame-46">
             <div class="frame-21">
               <div class="frame-22">

@@ -30,35 +30,35 @@ class Home_controller extends CI_Controller {
 
     public function index() {
 
-        $data = $this->hm->home_data();
-        #---------------------
-        # website setting data        
-        $data['home_page_positions'] = $this->wsm->home_category_position();
+        // $data = $this->hm->home_data();
+        // #---------------------
+        // # website setting data        
+        // $data['home_page_positions'] = $this->wsm->home_category_position();
 
 
-        $data['setting']                = $this->db->get('app_settings')->row();
-        $data['meta']                   = json_decode($this->settings->get_previous_settings('settings', 5));
-        $data['social_link']            = json_decode($this->settings->get_previous_settings('settings', 111));
-        $data['social_page']            = json_decode($this->settings->get_previous_settings('settings', 6));
+        // $data['setting']                = $this->db->get('app_settings')->row();
+        // $data['meta']                   = json_decode($this->settings->get_previous_settings('settings', 5));
+        // $data['social_link']            = json_decode($this->settings->get_previous_settings('settings', 111));
+        // $data['social_page']            = json_decode($this->settings->get_previous_settings('settings', 6));
         
-        $data['default_theme'] = $this->wsm->theme_data();
-        $data['lan'] = $this->wsm->lan_data();
-        $default_theme = $data['default_theme'];
+        // $data['default_theme'] = $this->wsm->theme_data();
+        // $data['lan'] = $this->wsm->lan_data();
+        // $default_theme = $data['default_theme'];
 
 
-        $data['ln'] = $this->cm->latest_news();
-        $data['bn'] = $this->cm->breaking_news();
-        $data['mr'] = $this->cm->most_read_dbse();
-        $data['pull'] = $this->cm->pulling();
+        // $data['ln'] = $this->cm->latest_news();
+        // $data['bn'] = $this->cm->breaking_news();
+        // $data['mr'] = $this->cm->most_read_dbse();
+        // $data['pull'] = $this->cm->pulling();
 
-        $data['login_url'] = $this->googleplus->loginURL();
-        $data['ads']            = $this->ads->SelectAds();
-        $data['Editor']         = $this->hm->home_data('Editor-Choice');
+        // $data['login_url'] = $this->googleplus->loginURL();
+        // $data['ads']            = $this->ads->SelectAds();
+        // $data['Editor']         = $this->hm->home_data('Editor-Choice');
 
-        $data['main_menu']      = $this->settings->main_menu();
-        $data['cat_menus']      = $this->settings->footer_menu();
-        $data['footer_menu']    = $this->settings->menu_position_3();
-        $data['cat']    = $this->settings->count_post_by_cat();
+        // $data['main_menu']      = $this->settings->main_menu();
+        // $data['cat_menus']      = $this->settings->footer_menu();
+        // $data['footer_menu']    = $this->settings->menu_position_3();
+        // $data['cat']    = $this->settings->count_post_by_cat();
 
         // $this->load->view('themes/' . $default_theme . '/header', $data);
         // $this->load->view('themes/' . $default_theme . '/breaking');
@@ -66,6 +66,16 @@ class Home_controller extends CI_Controller {
         // $this->load->view('themes/' . $default_theme . '/home_view');
         // $this->load->view('themes/' . $default_theme . '/footer');
         // $this->output->cache(30); 
+       
+        $data['latest_random_news'] =  $this->db->where('page', 'cricket')
+        ->order_by('id', 'desc') 
+        ->order_by('rand()')
+        ->limit(3)
+        ->get('news_mst')
+        ->result();
+
+        $data['feature_crickets'] =$this->db->where('page', 'cricket')->order_by('id', 'desc')->limit(1)->get('news_mst')->row();
+        $data['latest_crickets']  =$this->db->where('page', 'cricket')->order_by('id', 'desc')->limit(4,1)->get('news_mst')->result();
         $data['web_content'] = $this->load->view('webpage/home', $data, TRUE);
         $this->load->view('webpage/master', $data);
        

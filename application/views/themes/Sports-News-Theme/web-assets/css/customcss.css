@@ -1,0 +1,95 @@
+    .play-button i {
+        display: block;
+        position: absolute;
+        width: 100%;
+        font-size: 20px;
+        height: 20px;
+        top: 50%;
+        left: 0;
+        margin-top: -10px;
+        text-align: center;
+        z-index: 2;
+        color: #fff;
+        vertical-align: middle;
+        line-height: 50px;
+    }
+    .play-button i:before {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(47,50,59,.8);
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -25px;
+        margin-left: -25px;
+    }
+    .play-button_hover:hover i {
+        color: #444;
+    }
+    .play-button_hover:hover i:before {
+        background-color: #fff;
+    }
+
+    .position-relative{
+        position: relative;
+    }
+
+    .latest_post .media-left {
+        margin-right: 20px;
+        position: relative;
+    }
+
+
+/*----------------------------------------------------------------------------*/
+/*---- Jquery ui calendar css ----*/
+/*----------------------------------------------------------------------------*/
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: 45%;
+    color: #000;
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+    width: 310px;
+}
+
+.ui-datepicker{
+    width: 100%;
+}
+.ui-state-default, .ui-widget-content .ui-state-default{
+    background: #fff;
+}
+.ui-state-active, .ui-widget-content .ui-state-active,
+.ui-state-highlight, .ui-widget-content .ui-state-highlight{
+    border: 1px solid #f9a701;
+    background: #f9a701;
+    color: #fff;
+}
+.ui-datepicker .ui-datepicker-header {
+    background: #f9a701;
+    color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-next-hover{
+    top: 2px;
+    right: 2px;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover{
+    left: 2px;
+    top: 2px;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover{
+    background: #f9a701;    
+    color: #fff;
+    border: 1px solid #f9a701;
+}
+.ui-widget-header .ui-state-hover{
+    background: transparent;
+    border: 0;
+}

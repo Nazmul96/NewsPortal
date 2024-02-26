@@ -1,0 +1,18 @@
+.schedule_div{
+	margin-bottom: 30px;
+}
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.justify-content-between {
+    -webkit-box-pack: justify!important;
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+
+.briefview{font-size: 18px;}
+.briefview dt{line-height: 40px;}
+.briefview dd{line-height: 40px;}
+

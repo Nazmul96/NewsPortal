@@ -1,0 +1,43 @@
+.navbar-nav>li.active>a {
+    background-color: #208a0f;
+    border-bottom-color: #208a0f;
+}
+
+.navbar-nav>li:nth-child(1)>a {
+    border-bottom-color: #34a853;
+}
+
+.headding-news .post-info span, .news-feed .post-info span, .weekly-news-inner .post-info span {
+    background-color: #208a0f;
+}
+
+.search-area .btn-search {
+    background-color: #208a0f;
+    border-color: #208a0f;
+}
+
+.readmore i {
+    background: #208a0f;
+}
+
+
+.btn-top {
+    color: #208a0f;
+    border: 2px solid #208a0f;
+}
+
+
+.btn-top:hover {
+    background-color: #208a0f;
+}
+
+
+.subscribe-class {
+    background: #208a0f;
+}
+
+
+.bg-color-5 {
+    background-color: #208a0f!important;
+}
+

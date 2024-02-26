@@ -1,0 +1,46 @@
+[14-Feb-2021 10:05:41 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'Username'@'localhost' (using password: YES) in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[14-Feb-2021 10:27:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'Username'@'localhost' (using password: YES) in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[14-Feb-2021 10:27:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'Username'@'localhost' (using password: YES) in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:18 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[22-Feb-2021 07:11:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/news365v/public_html/news365-v6.4-main/index.php on line 317
+[23-Feb-2021 11:32:51 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:33:58 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:35:05 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:36:07 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:37:10 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:38:13 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:39:16 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:40:22 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:41:28 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:42:34 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:43:39 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 212
+[23-Feb-2021 11:44:42 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:45:47 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:46:50 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[23-Feb-2021 11:47:53 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/news365v/public_html/news365-v6.4-main/system/libraries/Session/drivers/Session_files_driver.php on line 214
+[12-Apr-2022 07:46:06 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/news365v/public_html/main/news365-v6.4-main/index.php on line 317
+[12-Apr-2022 07:46:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/news365v/public_html/main/news365-v6.4-main/index.php:317) in /home/news365v/public_html/main/news365-v6.4-main/index.php on line 331

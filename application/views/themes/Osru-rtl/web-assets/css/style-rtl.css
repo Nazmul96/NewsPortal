@@ -1,0 +1,143 @@
+.header-nav{
+    text-align: left;
+}
+
+.dismiss,
+.metismenu .arrow,
+.navbar-expand-lg .navbar-nav .dropdown-menu.search_box_wrapper,
+.btn-part,
+.dropdown-submenu a::after{
+    right: auto;
+}
+
+.radio label::before,
+.radio label::after,
+.sidebar-search,
+.sidebar-search.active,
+.sidebar-nav,
+.sidebar-nav.active,
+.dropdown-submenu .dropdown-menu{
+    left: auto;
+}
+
+.metismenu .arrow,
+.navbar-expand-lg .navbar-nav .dropdown-menu.search_box_wrapper,
+.btn-part{
+    left: 0;
+}
+
+.sidebar-search,
+.sidebar-nav{
+    right: -200%;
+}
+
+.radio label::before,
+.sidebar-search.active,
+.sidebar-nav.active{
+    right: 0;
+}
+
+.comments .media-left,
+.address-info .media > .pull-left,
+.metismenu > li > a,
+.latest_post .media-left,
+.meida-md .media-left,
+.sec-title{
+    padding-right: 0;
+}
+
+.radio{
+    padding-left: 0;
+}
+
+.calendar header .left.button,
+.calendar header .right.button,
+.sec-title i{
+    transform: rotate(180deg);
+}
+
+.dropdown-submenu a::after{
+    transform: rotate(90deg);
+}
+
+.dismiss{
+    left: 30px;
+}
+
+.dropdown-submenu a::after{
+    left: 6px;
+}
+
+.dropdown-submenu .dropdown-menu{
+    right: 100%;
+}
+
+.btn-more{
+    margin-left: 0;
+}
+
+.mr-3,
+.sidebar-search .btn-search i,
+.post-cat span,
+.archive_link i,
+.search_box_wrapper .btn i,
+.entry-meta span,
+.post-cat a,
+.entry-meta span i{
+    margin-right: 0 !important;
+}
+
+.sidebar-search .btn-search i,
+.post-cat span,
+.archive_link i,
+.search_box_wrapper .btn i,
+.entry-meta span i{
+    margin-left: 5px;
+}
+
+.mr-3{
+    margin-left: 15px;
+}
+
+.comments .media-left,
+.address-info .media > .pull-left,
+.metismenu > li > a,
+.latest_post .media-left,
+.meida-md .media-left,
+.sec-title{
+    padding-left: 15px;
+}
+
+.radio{
+    padding-right: 15px;
+}
+
+.sec-title i{
+    margin-right: 5px;
+}
+
+.radio label::before{
+    margin-right: -20px;
+}
+
+.radio label::after{
+    right: 3px;
+    margin-right: -20px;
+}
+
+.cat_list li a span,
+.vote-count{
+    float: left;
+}
+
+.archive_inner .sec-title i {
+    line-height: 20px;
+}
+
+.post_details blockquote{
+    border-left: 0;
+}
+
+.post_details blockquote{
+    border-right: 5px solid #222;
+}

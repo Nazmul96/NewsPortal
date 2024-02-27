@@ -555,6 +555,7 @@
                 <img class="share" src="<?php echo base_url()?>assets/newDesign/img/share-1.png" />
               </div>
             </div>
+            
             <div class="frame-24">
               <div class="frame-22"><img class="image-2" src="<?php echo base_url()?>assets/newDesign/img/image-3.png" /></div>
               <p class="text-wrapper-13">Live streaming, SA20 2024 begins on January 10: Where to watch</p>

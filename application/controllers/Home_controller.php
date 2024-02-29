@@ -70,7 +70,7 @@ class Home_controller extends CI_Controller {
         $data['latest_random_news'] =  $this->db->where('page', 'cricket')
         ->order_by('id', 'desc') 
         ->order_by('rand()')
-        ->limit(3)
+        ->limit(5)
         ->get('news_mst')
         ->result();
 

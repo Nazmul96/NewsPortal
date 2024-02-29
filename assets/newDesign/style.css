@@ -1,7 +1,6 @@
-
 .navbar_design {
   background-color: #383435f2;
-  height:80px;
+  height: 80px;
 }
 .navbar-nav .nav-link {
   color: #ffffff !important;
@@ -15,15 +14,87 @@
   letter-spacing: 0;
   line-height: normal;
 }
-
-.footer_design{
+.footer_design {
   background-color: #383435f2;
   color: #fff;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   height: 75px;
 }
+.small-content{
+  padding:10px;
+  background-color: #383435f2;
+  border-radius: 10px;
+}
+.large-content{
+  padding:10px;
+  background-color: #383435f2;
+  border-radius: 0 0 10px 10px;
+}
+.large-content-img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.large-content-news{
+  margin-top: 10px;
+  color: #fff;
+}
+.share_icon{
+  position: absolute;
+  width: 100%;
+  bottom: 3px;
+  right: 5px;
+  text-align: right;
+}
+.small-content-icon{
+  position: absolute;
+  width: 100%;
+  bottom: 2px;
+  right: 20px;
+  text-align: right;
+}
+.small-content-next{
+  margin-top: 15px;
+}
+.small-content-card{
+  height: 100px;
+}
+.small-content-card-img{
+  height: 100px;
+  width: 140px;
+  border-radius: 5%;
+}
+.small-content-card-text{
+   color: yellow;
+   margin-left: 44px;
+}
 
+.small-content-card-news-text{
+  position: absolute;
+  bottom: 0px;
+  left: 16px;
+  font-size: 18px;
+  color: white;
+  margin-left: 42px;
+}
 
-
-
+.latest_score_grid{
+  display: flex;
+  justify-content: space-between;
+  background-color: #383435f2;
+  height: 180px; 
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.first_ads{
+  background-color: #383435f2;
+  height: 100px; 
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.second_ads{
+  background-color: #383435f2;
+  border-radius: 10px;
+}

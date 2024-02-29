@@ -60,6 +60,7 @@
                                 }  
                             } 
 
+                            // echo "<pre>";print_r($HmvcMenu);die();
 
                             if(isset($HmvcMenu) && $HmvcMenu!=null && sizeof($HmvcMenu) > 0)
                             foreach ($HmvcMenu as $moduleName => $moduleData) {
@@ -74,12 +75,13 @@
                                         <a href="#" class="has-arrow material-ripple">
                                             <?php echo (($moduleData['icon']!=null)?$moduleData['icon']:null) ?>  <?php echo display($moduleName) ?>
                                             
-                                        </a> 
+                                        </a>
 
 
                                         <ul class="nav-second-level">
                                             
-                                            <?php foreach ($moduleData as $groupLabel => $label) {  ?>
+                                            <?php 
+                                            foreach ($moduleData as $groupLabel => $label) {  ?>
 
                                                 <?php   
                                                 if ($groupLabel!='icon') 

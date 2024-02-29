@@ -1,7 +1,7 @@
 <?php
 
 // module name
-$HmvcMenu["media_library"] = array(
+$HmvcMenu["media_library"] = array( 
     //set icon
     "icon"           => " <i class='typcn typcn-film mr-2'></i>", 
     //menu name

@@ -9,7 +9,38 @@
 <title>News365s RSS Feed RSS</title>
 <link>http://localhost/client_newsportal/</link>
 <description>Read our awesome news, every day</description>
-<lastBuildDate>26-02-2024</lastBuildDate>
+<lastBuildDate>29-02-2024</lastBuildDate>
+
+                        <item>
+                            <title>India v Bangladesh - ICC Men's T20 World Cup</title>
+                            <link>http://localhost/client_newsportal/India-v-Bangladesh---ICC-Men-s-T20-World-Cup/</link>
+                            <guid>http://localhost/client_newsportal/India-v-Bangladesh---ICC-Men-s-T20-World-Cup/</guid>
+                            <description><![CDATA[ India v Bangladesh - ICC Men's T20 World CupIndia v Bangladesh - ICC Men's T20 World CupIndia v Bangladesh - ]]></description>
+                            <enclosure url='http://localhost/client_newsportal/uploads/gettyimages-1438367013-612x612.jpg'/>
+                            <pubDate>2024-02-29 09:07:59</pubDate>
+                            <dc:creator>Johan</dc:creator>
+                        </item>
+
+                        <item>
+                            <title>India v Bangladesh - ICC Men's T20 World Cup</title>
+                            <link>http://localhost/client_newsportal/India-v-Bangladesh---ICC-Men-s-T20-World-Cup/</link>
+                            <guid>http://localhost/client_newsportal/India-v-Bangladesh---ICC-Men-s-T20-World-Cup/</guid>
+                            <description><![CDATA[ India v Bangladesh - ICC Men's T20 World CupIndia v Bangladesh - ICC Men's T20 World CupIndia v Bangladesh - ]]></description>
+                            <enclosure url='http://localhost/client_newsportal/uploads/gettyimages-1438367013-612x612.jpg'/>
+                            <pubDate>2024-02-29 09:07:50</pubDate>
+                            <dc:creator>Johan</dc:creator>
+                        </item>
+
+                        <item>
+                            <title>How Can Dhruv Jurel And Sarfaraz Khan Receive BCCI Central Contract?</title>
+                            <link>http://localhost/client_newsportal/How-Can-Dhruv-Jurel-And-Sarfaraz-Khan-Receive-BCCI-Central-Contract-/</link>
+                            <guid>http://localhost/client_newsportal/How-Can-Dhruv-Jurel-And-Sarfaraz-Khan-Receive-BCCI-Central-Contract-/</guid>
+                            <description><![CDATA[ How Can Dhruv Jurel And Sarfaraz Khan Receive BCCI Central Contract?&nbsp;
+ ]]></description>
+                            <enclosure url='http://localhost/client_newsportal/uploads/gettyimages-1420743616-612x612.jpg'/>
+                            <pubDate>2024-02-29 08:55:02</pubDate>
+                            <dc:creator>Johan</dc:creator>
+                        </item>
 
                         <item>
                             <title>Underdog Triumphs in Stunning Upset, Rewriting the Script in Unforgettable Football Matchup</title>

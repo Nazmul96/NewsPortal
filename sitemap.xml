@@ -170,6 +170,24 @@
                 </url>
 
                 <url>
+                    <loc>http://localhost/client_newsportal/India-v-Bangladesh---ICC-Men-s-T20-World-Cup/</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/client_newsportal/India-v-Bangladesh---ICC-Men-s-T20-World-Cup/</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
+                    <loc>http://localhost/client_newsportal/How-Can-Dhruv-Jurel-And-Sarfaraz-Khan-Receive-BCCI-Central-Contract-/</loc>
+                    <changefreq> always </changefreq>
+                    <priority>1.0</priority>    
+                </url>
+
+                <url>
                     <loc>http://localhost/client_newsportal/Underdog-Triumphs-in-Stunning-Upset--Rewriting-the-Script-in-Unforgettable-Football-Matchup/</loc>
                     <changefreq> always </changefreq>
                     <priority>1.0</priority>    
